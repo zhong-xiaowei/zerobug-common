@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  cn.com.zerobug.common.config.NuclearGlobalAutoConfiguration
+  cn.com.zerobug.common.config.ZerobugGlobalAutoConfiguration

@@ -9,7 +9,7 @@ import org.springframework.core.convert.converter.ConverterFactory;
  * @contact zhongxiaowei.nice@gmail.com
  * @date 2022/6/2
  */
-public class NuclearConverterFactory implements ConverterFactory<String, ConvertibleEnum> {
+public class ZerobugConverterFactory implements ConverterFactory<String, ConvertibleEnum> {
 
     @Override
     public <T extends ConvertibleEnum> Converter<String, T> getConverter(Class<T> targetType) {

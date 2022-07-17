@@ -1,7 +1,7 @@
 package cn.com.zerobug.common.config;
 
 import cn.com.zerobug.common.context.GlobalParameterRequestInterceptor;
-import cn.com.zerobug.common.enums.convert.NuclearConverterFactory;
+import cn.com.zerobug.common.enums.convert.ZerobugConverterFactory;
 import org.springframework.format.FormatterRegistry;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
@@ -20,6 +20,6 @@ public class GlobalMvcConfigure implements WebMvcConfigurer {
 
     @Override
     public void addFormatters(FormatterRegistry registry) {
-        registry.addConverterFactory(new NuclearConverterFactory());
+        registry.addConverterFactory(new ZerobugConverterFactory());
     }
 }

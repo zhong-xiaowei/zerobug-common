@@ -10,8 +10,8 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  */
 @Data
 @NoArgsConstructor
-@ConfigurationProperties(prefix = NuclearProperties.PREFIX)
-public class NuclearProperties {
+@ConfigurationProperties(prefix = ZerobugProperties.PREFIX)
+public class ZerobugProperties {
 
     public static final String PREFIX                  = "zerobug";
     public static final String APPLICATION_INFO_PREFIX = PREFIX + "application-info";
