@@ -1,0 +1,48 @@
+{
+  "groups": [
+    {
+      "name": "zerobug",
+      "type": "cn.com.zerobug.common.base.NuclearProperties",
+      "sourceType": "cn.com.zerobug.common.base.NuclearProperties"
+    },
+    {
+      "name": "zerobug.application-info",
+      "type": "cn.com.zerobug.common.base.NuclearProperties$ApplicationInfo",
+      "sourceType": "cn.com.zerobug.common.base.NuclearProperties",
+      "sourceMethod": "getApplicationInfo()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "zerobug.application-info.description",
+      "type": "java.lang.String",
+      "description": "应用程序描述",
+      "sourceType": "cn.com.zerobug.common.base.NuclearProperties$ApplicationInfo"
+    },
+    {
+      "name": "zerobug.application-info.name",
+      "type": "java.lang.String",
+      "description": "应用程序名称",
+      "sourceType": "cn.com.zerobug.common.base.NuclearProperties$ApplicationInfo"
+    },
+    {
+      "name": "zerobug.application-info.springboot-version",
+      "type": "java.lang.String",
+      "description": "应用程序springboot版本",
+      "sourceType": "cn.com.zerobug.common.base.NuclearProperties$ApplicationInfo"
+    },
+    {
+      "name": "zerobug.application-info.version",
+      "type": "java.lang.String",
+      "description": "应用程序版本",
+      "sourceType": "cn.com.zerobug.common.base.NuclearProperties$ApplicationInfo"
+    },
+    {
+      "name": "zerobug.enable-global-config",
+      "type": "java.lang.Boolean",
+      "description": "全局配置",
+      "sourceType": "cn.com.zerobug.common.base.NuclearProperties"
+    }
+  ],
+  "hints": []
+}
